@@ -1,5 +1,5 @@
 {% set name = "defaultlist" %}
-{% set version = "1.0.0" %}
+{% set version = "1.2.0" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/defaultlist-{{ version }}.tar.gz
-  sha256: 58cec08e2b1bd8a1a39e7a78dbbf6f66250258f461eb9b9ac0cc3eb78d3a0aca
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/defaultlist-{{ version }}.tar.gz
+  sha256: 2a023dedd77cb66b09cfe24c5587bae96f028e613157a871c8172e205ba6961f
 
 build:
   number: 0
